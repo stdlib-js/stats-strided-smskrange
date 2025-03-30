@@ -1,0 +1,48 @@
+# CHANGELOG
+
+> Package changelog.
+
+<section class="release" id="unreleased">
+
+## Unreleased (2025-03-30)
+
+<section class="features">
+
+### Features
+
+-   [`e10795d`](https://github.com/stdlib-js/stdlib/commit/e10795d6cfcadb1553222f4d35892e8baadad517) - add `stats/strided/smskrange`
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`e10795d`](https://github.com/stdlib-js/stdlib/commit/e10795d6cfcadb1553222f4d35892e8baadad517) - **feat:** add `stats/strided/smskrange` _(by Aayush Khanna)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Aayush Khanna
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
