@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`36e1bc3`](https://github.com/stdlib-js/stdlib/commit/36e1bc38710d07b84bf38c11cedaec4748b7faeb) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`e10795d`](https://github.com/stdlib-js/stdlib/commit/e10795d6cfcadb1553222f4d35892e8baadad517) - **feat:** add `stats/strided/smskrange` _(by Aayush Khanna)_
 
 </details>
