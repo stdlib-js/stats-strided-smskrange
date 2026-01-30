@@ -52,6 +52,11 @@ The [**range**][range] is defined as the difference between the maximum and mini
 To use in Observable,
 
 ```javascript
+smskrange = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smskrange@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-smskrange/tags). For example,
+
+```javascript
 smskrange = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smskrange@v0.1.0-umd/browser.js' )
 ```
 
@@ -64,7 +69,7 @@ var smskrange = require( 'path/to/vendor/umd/stats-strided-smskrange/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smskrange@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smskrange@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -190,7 +195,7 @@ var v = smskrange.ndarray( 4, x, 2, 1, mask, 2, 1 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smskrange@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smskrange@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
