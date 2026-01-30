@@ -50,7 +50,7 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-import smskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smskrange@deno/mod.js';
+import smskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smskrange@v0.1.0-deno/mod.js';
 ```
 
 #### smskrange( N, x, strideX, mask, strideMask )
@@ -163,7 +163,7 @@ var v = smskrange.ndarray( 4, x, 2, 1, mask, 2, 1 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@deno/mod.js';
-import smskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smskrange@deno/mod.js';
+import smskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smskrange@v0.1.0-deno/mod.js';
 
 var uniformOptions = {
     'dtype': 'float32'
